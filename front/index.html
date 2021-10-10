@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2765/2765163.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <title>Meus Filmes</title>
+</head>
+
+<body>
+    <header class=menu>
+        <h1>Meus Filmes</h1>
+    </header>
+    
+    <div class= container>
+        <form onsubmit="submitForm(event)" class="form">
+            <div class="form-item">
+                <span class="item-title">Nome:</span>
+                <input autofocus type="text" class="input input-name" 
+                id="nome" placeholder="Digite o nome do Filme"/>
+            </div>
+            
+            <div class="form-item">
+                <span class="item-title">Imagem:</span>
+                <input autofocus type="text" class="input input-img" id="imagem" placeholder="Adicione a url da imagem"/>
+            </div>
+            
+            <div class="form-item">
+                <span class="item-title">Gênero:</span>
+                <input autofocus type="text" class="input input-genre" id="genero" placeholder=" Adicione gênero Ex: Ação/Romance"/>
+            </div>
+            
+            <div class="form-item">
+                <span class="item-title">Avaliação:</span>
+                <input autofocus type="text" class="input input-rate" id="nota" placeholder="Digite uma nota de 0 a 10"/>
+            </div>
+
+            <div class=form-button>
+                <button class="button" type="submit">Cadastrar</button>
+            </div>
+                
+        </form>
+    </div>
+
+    <ul class="cards">
+
+        
+
+    </ul>
+
+    <footer><h2 class="footerTxt">Powered by Yago Monteiro</h2></footer>
+
+    
+    <script src="./index.js"></script>
+    <script src="./toggleMenu.js"></script>
+</body>
+</html>   
+
